@@ -1,0 +1,38 @@
+{
+  "name": "calculation-library",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/calculation-library.cjs.js",
+  "module": "dist/calculation-library.esm.js",
+  "browser": "dist/calculation-library.min.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+  "arithmetic",
+  "math",
+  "library",
+  "javascript",
+  "calculation"],
+  "author": "Prateeti Chinchore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/calculation-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/calculation-library/issues"
+  },
+  "homepage": "https://github.com/your-username/calculation-library#readme",
+  "description": "A simple library for basic arithmeticoperations and greetings.",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.28.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
